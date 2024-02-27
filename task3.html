@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>forms</title>
+    <meta
+      name="form"
+      description="To create an interactive form where user can enter the input and record the response"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>FORM</h1>
+    </header>
+    <main>
+      <form>
+        <label for="fname">First name</label>
+        <input
+          type="text"
+          placeholder="first name"
+          id="fname"
+          name="fname"
+        /><br /><br />
+
+        <label for="lname">Last name</label>
+        <input
+          type="text"
+          placeholder="last name"
+          id="lname"
+          name="lname"
+        /><br /><br />
+
+        <label for="empid">employee id</label>
+        <input type="text" id="empid" pattern="\d" name="empid" /><br /><br />
+
+        <label>Gender</label>
+        <input type="radio" id="male" value="male" name="gender" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="Female" name="gender" />
+        <label for="female">Female</label><br /><br />
+
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" id="DOB" name="DOB" />
+        <br /><br />
+
+        <label for="food">Food type</label>
+        <select id="food" name="food">
+          <option value="veg">Veg</option>
+          <option value="veg">Non-Veg</option></select
+        ><br /><br />
+
+        <label for="password">password</label>
+        <input
+          type="password"
+          maxlength="8"
+          placeholder="max-8 character"
+          name="pass"
+        /><br /><br />
+
+        <label for="password">confirm password</label>
+        <input
+          type="password"
+          maxlength="8"
+          placeholder="max-8 character"
+          name="pass"
+        /><br /><br />
+
+        <label for="Color">Favorite color</label>
+        <input type="color" id="Color" name="Color" /><br /><br />
+
+        <input type="checkbox" id="agree" name="agree" />
+        <label for="agree">I agree to everything</label><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
